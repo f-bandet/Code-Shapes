@@ -5,6 +5,7 @@
 ###
 from os import _exit as exit
 ###Main function
+###Restriction: this program was intentionally designed not use string multiplication.
 def main():
     shape = input('Enter shape to display: \n')
     arrow_char = input('Enter arrow character: \n')
